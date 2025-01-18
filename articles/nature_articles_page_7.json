@@ -1,0 +1,900 @@
+[
+    {
+        "title": "An open-source framework for end-to-end analysis of electronic health record data",
+        "link": "https://www.nature.com/articles/s41591-024-03214-0",
+        "publication_date": "12 Sept 2024",
+        "abstract": "With progressive digitalization of healthcare systems worldwide, large-scale collection of electronic health records (EHRs) has become commonplace. However, an extensible framework for comprehensive exploratory analysis that accounts for data heterogeneity is missing. Here we introduce ehrapy, a modular open-source Python framework designed for exploratory analysis of heterogeneous epidemiology and EHR data. ehrapy incorporates a series of analytical steps, from data extraction and quality control to the generation of low-dimensional representations. Complemented by rich statistical modules, ehrapy facilitates associating patients with disease states, differential comparison between patient clusters, survival analysis, trajectory inference, causal inference and more. Leveraging ontologies, ehrapy further enables data sharing and training EHR deep learning models, paving the way for foundational models in biomedical research. We demonstrate ehrapy’s features in six distinct examples. We applied ehrapy to stratify patients affected by unspecified pneumonia into finer-grained phenotypes. Furthermore, we reveal biomarkers for significant differences in survival among these groups. Additionally, we quantify medication-class effects of pneumonia medications on length of stay. We further leveraged ehrapy to analyze cardiovascular risks across different data modalities. We reconstructed disease state trajectories in patients with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) based on imaging data. Finally, we conducted a case study to demonstrate how ehrapy can detect and mitigate biases in EHR data. ehrapy, thus, provides a framework that we envision will standardize analysis pipelines on EHR data and serve as a cornerstone for the community.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "The global geography of artificial intelligence in life science research",
+        "link": "https://www.nature.com/articles/s41467-024-51714-x",
+        "publication_date": "12 Sept 2024",
+        "abstract": "Artificial intelligence (AI) promises to transform medicine, but the geographic concentration of AI expertize may hinder its equitable application. We analyze 397,967 AI life science research publications from 2000 to 2022 and 14.5 million associated citations, creating a global atlas that distinguishes productivity (i.e., publications), quality-adjusted productivity (i.e., publications stratified by field-normalized rankings of publishing outlets), and relevance (i.e., citations). While Asia leads in total publications, Northern America and Europe contribute most of the AI research appearing in high-ranking outlets, generating up to 50% more citations than other regions. At the global level, international collaborations produce more impactful research, but have stagnated relative to national research efforts. Our findings suggest that greater integration of global expertize could help AI deliver on its promise and contribute to better global health.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Oculomic stratification of COVID-19 patients’ intensive therapy unit admission status and mortality by retinal morphological findings",
+        "link": "https://www.nature.com/articles/s41598-024-68543-z",
+        "publication_date": "12 Sept 2024",
+        "abstract": "To investigate if retinal thickness has predictive utility in COVID-19 outcomes by evaluating the statistical association between retinal thickness using OCT and of COVID-19-related mortality. Secondary outcomes included associations between retinal thickness and length of stay (LoS) in hospital. In this retrospective cohort study, OCT scans from 230 COVID-19 patients admitted to the Intensive Care Unit (ITU) were compared with age and gender-matched patients with pneumonia from before March 2020. Total retinal, GCL + IPL, and RNFL thicknesses were recorded, and analysed with systemic measures collected at the time of admission and mortality outcomes, using linear regression models, Pearson’s R correlation, and Principal Component Analysis. Retinal thickness was significantly associated with all-time mortality on follow up in the COVID-19 group (p = 0.015), but not 28-day mortality (p = 0.151). Retinal and GCL + IPL layer thicknesses were both significantly associated with LoS in hospital for COVID-19 patients (p = 0.006 for both), but not for patients with pneumonia (p = 0.706 and 0.989 respectively). RNFL thickness was not associated with LoS in either group (COVID-19 p = 0.097, pneumonia p = 0.692). Retinal thickness associated with LoS in hospital and long-term mortality in COVID-19 patients, suggesting that retinal structure could be a surrogate marker for frailty and predictor of disease severity in this group of patients, but not in patients with pneumonia from other causes.",
+        "conclusions": "The associations between retinal thickness and LoS in hospital in COVID-19 patients, and retinal thickness and all-time mortality in both patients with COVID-19 and those with pneumonia, suggests that retinal structure could be a marker of frailty and a predictor of disease severity in this group.",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Disease prediction with multi-omics and biomarkers empowers case–control genetic discoveries in the UK Biobank",
+        "link": "https://www.nature.com/articles/s41588-024-01898-1",
+        "publication_date": "11 Sept 2024",
+        "abstract": "The emergence of biobank-level datasets offers new opportunities to discover novel biomarkers and develop predictive algorithms for human disease. Here, we present an ensemble machine-learning framework (machine learning with phenotype associations, MILTON) utilizing a range of biomarkers to predict 3,213 diseases in the UK Biobank. Leveraging the UK Biobank’s longitudinal health record data, MILTON predicts incident disease cases undiagnosed at time of recruitment, largely outperforming available polygenic risk scores. We further demonstrate the utility of MILTON in augmenting genetic association analyses in a phenome-wide association study of 484,230 genome-sequenced samples, along with 46,327 samples with matched plasma proteomics data. This resulted in improved signals for 88 known (P < 1 × 10−8) gene–disease relationships alongside 182 gene–disease relationships that did not achieve genome-wide significance in the nonaugmented baseline cohorts. We validated these discoveries in the FinnGen biobank alongside two orthogonal machine-learning methods built for gene–disease prioritization. All extracted gene–disease associations and incident disease predictive biomarkers are publicly available (http://milton.public.cgr.astrazeneca.com).",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Video frame interpolation neural network for 3D tomography across different length scales",
+        "link": "https://www.nature.com/articles/s41467-024-52260-2",
+        "publication_date": "11 Sept 2024",
+        "abstract": "Three-dimensional (3D) tomography is a powerful investigative tool for many scientific domains, going from materials science, to engineering, to medicine. Many factors may limit the 3D resolution, often spatially anisotropic, compromising the precision of the information retrievable. A neural network, designed for video-frame interpolation, is employed to enhance tomographic images, achieving cubic-voxel resolution. The method is applied to distinct domains: the investigation of the morphology of printed graphene nanosheets networks, obtained via focused ion beam-scanning electron microscope (FIB-SEM), magnetic resonance imaging of the human brain, and X-ray computed tomography scans of the abdomen. The accuracy of the 3D tomographic maps can be quantified through computer-vision metrics, but most importantly with the precision on the physical quantities retrievable from the reconstructions, in the case of FIB-SEM the porosity, tortuosity, and effective diffusivity. This work showcases a versatile image-augmentation strategy for optimizing 3D tomography acquisition conditions, while preserving the information content.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Lifestyle differences between co-twins are associated with decreased similarity in their internal and external exposome profiles",
+        "link": "https://www.nature.com/articles/s41598-024-72354-7",
+        "publication_date": "11 Sept 2024",
+        "abstract": "Whether differences in lifestyle between co-twins are reflected in differences in their internal or external exposome profiles remains largely underexplored. We therefore investigated whether within-pair differences in lifestyle were associated with within-pair differences in exposome profiles across four domains: the external exposome, proteome, metabolome and epigenetic age acceleration (EAA). For each domain, we assessed the similarity of co-twin profiles using Gaussian similarities in up to 257 young adult same-sex twin pairs (54% monozygotic). We additionally tested whether similarity in one domain translated into greater similarity in another. Results suggest that a lower degree of similarity in co-twins' exposome profiles was associated with greater differences in their behavior and substance use. The strongest association was identified between excessive drinking behavior and the external exposome. Overall, our study demonstrates how social behavior and especially substance use are connected to the internal and external exposomes, while controlling for familial confounders.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Comorbidity-based framework for Alzheimer’s disease classification using graph neural networks",
+        "link": "https://www.nature.com/articles/s41598-024-72321-2",
+        "publication_date": "10 Sept 2024",
+        "abstract": "Alzheimer’s disease (AD), the most prevalent form of dementia, requires early prediction for timely intervention. Current deep learning approaches, particularly those using traditional neural networks, face challenges such as handling high-dimensional data, interpreting complex relationships, and managing data bias. To address these limitations, we propose a framework utilizing graph neural networks (GNNs), which excel in modeling relationships within graph-structured data. Our study employs GNNs on data from the Alzheimer’s Disease Neuroimaging Initiative for binary and multi-class classification across the three stages of AD: cognitively normal (CN), mild cognitive impairment (MCI), and Alzheimer’s disease (AD). By incorporating comorbidity data derived from electronic health records, we achieved the most effective multi-classification results. Notably, the GNN model (Chebyshev Convolutional Neural Networks) demonstrated superior performance with a 0.98 accuracy in multi-class classification and 0.99, 0.93, and 0.94 in the AD/CN, AD/MCI, and CN/MCI binary tasks, respectively. The model’s robustness was further validated using the Australian Imaging, Biomarker & Lifestyle dataset as an external validation set. This work contributes to the field by offering a robust, accurate, and cost-effective method for early AD prediction (CN vs. MCI), addressing key challenges in existing deep learning approaches.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Ultrasound based radiomics model for assessment of placental function in pregnancies with preeclampsia",
+        "link": "https://www.nature.com/articles/s41598-024-72046-2",
+        "publication_date": "10 Sept 2024",
+        "abstract": "The goal of our research is to elucidate and better assess placental function in rats with preeclampsia through an innovative application of ultrasound-based radiomics. Using a rat model induced with L-NAME, we carefully investigated placental dysfunction via microstructural analysis and immunoprotein level assessment. Employing the Boruta feature selection method on ultrasound images facilitated the identification of crucial features, consequently enabling the development of a robust model for classifying placental dysfunction. Our study included 12 pregnant rats, and thorough placental evaluations were conducted on 160 fetal rats. Distinct alterations in placental microstructure and angiogenic factor expression were evident in rats with preeclampsia. Leveraging high-throughput mining of quantitative image features, we extracted 558 radiomic features, which were subsequently used to construct an impressive evaluation model with an area under the receiver operating curve (AUC) of 0.95. This model also exhibited a remarkable sensitivity, specificity, accuracy, positive predictive value, and negative predictive value of 88.7%, 91.5%, 90.2%, 90.4%, and 90.0%, respectively. Our findings highlight the ability of ultrasound-based radiomics to detect abnormal placental features, demonstrating its potential for evaluating both normative and impaired placental function with high precision and reliability.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Unmasking and quantifying racial bias of large language models in medical report generation",
+        "link": "https://www.nature.com/articles/s43856-024-00601-z",
+        "publication_date": "10 Sept 2024",
+        "abstract": "Large language models like GPT-3.5-turbo and GPT-4 hold promise for healthcare professionals, but they may inadvertently inherit biases during their training, potentially affecting their utility in medical applications. Despite few attempts in the past, the precise impact and extent of these biases remain uncertain.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "FABP4 deficiency ameliorates alcoholic steatohepatitis in mice via inhibition of p53 signaling pathway",
+        "link": "https://www.nature.com/articles/s41598-024-71311-8",
+        "publication_date": "10 Sept 2024",
+        "abstract": "Fatty acid-binding protein 4 (FABP4) plays an essential role in metabolism and inflammation. However, the role of FABP4 in alcoholic steatohepatitis (ASH) remains unclear. This study aimed to investigate the function and underlying mechanisms of FABP4 in the progression of ASH. We first obtained alcoholic hepatitis (AH) datasets from the National Center for Biotechnology Information–Gene Expression Omnibus database and conducted bioinformatics analysis to identify critical genes in the FABP family. We then established ASH models of the wild-type (WT) and Fabp4-deficient (Fabp4−/−) mice to investigate the role of FABP4 in ASH. Additionally, we performed transcriptional profiling of mouse liver tissue and analyzed the results using integrative bioinformatics. The FABP4-associated signaling pathway was further verified. FABP4 was upregulated in two AH datasets and was thus identified as a critical biomarker for AH. FABP4 expression was higher in the liver tissues of patients with alcoholic liver disease and ASH mice than in the corresponding control samples. Furthermore, the Fabp4−/− ASH mice showed reduced hepatic lipid deposition and inflammation compared with the WT ASH mice. Mechanistically, Fabp4 may be involved in regulating the p53 and sirtuin-1 signaling pathways, subsequently affecting lipid metabolism and macrophage polarization in the liver of ASH mice. Our results demonstrate that Fabp4 is involved in the progression of ASH and that Fabp4 deficiency may ameliorate ASH. Therefore, FABP4 may be a potential therapeutic target for ASH treatment.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Electroencephalography-based endogenous phenotype of diagnostic transition from major depressive disorder to bipolar disorder",
+        "link": "https://www.nature.com/articles/s41598-024-71287-5",
+        "publication_date": "09 Sept 2024",
+        "abstract": "The neuropathology of mood disorders, including the diagnostic transition from major depressive disorder (MDD) to bipolar disorder (BD), is poorly understood. This study investigated resting-state electroencephalography (EEG) activity in patients with MDD and those whose diagnosis changed from MDD to BD. Among sixty-eight enrolled patients with MDD, the diagnosis of 17 patients converted to BD during the study period. We applied machine learning techniques to differentiate the two groups using sensor- and source-level EEG features. At the sensor level, patients with BD showed higher theta band power at the AF3 channel and low-alpha band power at the FC5 channel compared to patients with MDD. At the source level, patients with BD showed higher theta band activity in the right anterior cingulate and low-alpha band activity in the left parahippocampal gyrus. These four EEG features were selected for discriminating between BD and MDD with the best classification performance showing an accuracy of 80.88%, a sensitivity of 76.47%, and a specificity of 82.35%. Our findings revealed distinct theta and low-alpha band activities in patients with BD and MDD. These differences could potentially serve as candidate neuromarkers for the diagnosis and diagnostic transition between the two distinct mood disorders.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Closing the gap between open source and commercial large language models for medical evidence summarization",
+        "link": "https://www.nature.com/articles/s41746-024-01239-w",
+        "publication_date": "09 Sept 2024",
+        "abstract": "Large language models (LLMs) hold great promise in summarizing medical evidence. Most recent studies focus on the application of proprietary LLMs. Using proprietary LLMs introduces multiple risk factors, including a lack of transparency and vendor dependency. While open-source LLMs allow better transparency and customization, their performance falls short compared to the proprietary ones. In this study, we investigated to what extent fine-tuning open-source LLMs can further improve their performance. Utilizing a benchmark dataset, MedReview, consisting of 8161 pairs of systematic reviews and summaries, we fine-tuned three broadly-used, open-sourced LLMs, namely PRIMERA, LongT5, and Llama-2. Overall, the performance of open-source models was all improved after fine-tuning. The performance of fine-tuned LongT5 is close to GPT-3.5 with zero-shot settings. Furthermore, smaller fine-tuned models sometimes even demonstrated superior performance compared to larger zero-shot models. The above trends of improvement were manifested in both a human evaluation and a larger-scale GPT4-simulated evaluation.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Neonatal cardiac POCUS—a survey of academic neonatal centers in the United States",
+        "link": "https://www.nature.com/articles/s41372-024-02108-w",
+        "publication_date": "09 Sept 2024",
+        "abstract": "To investigate the current state of clinical practice and training regarding the use of cardiac point of care ultrasound (cPOCUS) in neonatal intensive care units.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Earth observation data uncover green spaces’ role in mental health",
+        "link": "https://www.nature.com/articles/s41598-024-72008-8",
+        "publication_date": "09 Sept 2024",
+        "abstract": "The prevalence of mental health disorders, a key disability cause, is linked to demographic and socioeconomic factors. However, limited data exists on mental health and the urban environment. Urbanization exposes populations to environmental stressors, particularly affecting low-middle-income countries with complex urban arrangements. We used remote sensing and census data to investigate potential connections between environmental factors and mental health disorders. Land cover variables were assessed using the European Space Agency (ESA) global WorldCover product at 10 m resolution together with the database of mental health diagnosed cases (n = 5769) from the Brazilian Unified Health System’s Department of Informatics (DATASUS) from every health facility of the city of Porto Alegre. The association of mental health data with land cover was established with machine learning algorithms and polynomial regression models. The results suggest that higher trees cover at neighborhood level was associated with better mental health index. A lower mental health index was also found to be associated with an higher Human Development Index. Our results highlight the potential of greenness in the city environment to achieve substantially better mental health outcomes.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Neurodevelopmental imprints of sociomarkers in adolescent brain connectomes",
+        "link": "https://www.nature.com/articles/s41598-024-71309-2",
+        "publication_date": "09 Sept 2024",
+        "abstract": "Neural consequences of social disparities are not yet rigorously investigated. How socioeconomic conditions influence children’s connectome development remains unknown. This paper endeavors to gauge how precisely the connectome structure of the brain can predict an individual’s social environment, thereby inversely assessing how social influences are engraved in the neural development of the Adolescent brain. Utilizing Adolescent Brain and Cognition Development (ABCD) data (9099 children residing in the United States), we found that social conditions both at the household and neighborhood levels are significantly associated with specific neural connections. Solely with brain connectome data, we train a linear support vector machine (SVM) to predict socio-economic conditions of those adolescents. The classification performance generally improves when the thresholds of the advantageous and disadvantageous environments compartmentalize the extreme cases. Among the tested thresholds, the 20th and 80th percentile thresholds using the dual combination of household income and neighborhood education yielded the highest Area Under the Precision-Recall Curve (AUPRC) of 0.8224. We identified 8 significant connections that critically contribute to predicting social environments in the parietal lobe and frontal lobe. Insights into social factors that contribute to early brain connectome development is critical to mitigate the disadvantages of children growing up in unfavorable neighborhoods.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Machine learning-based risk prediction model construction of difficult weaning in ICU patients with mechanical ventilation",
+        "link": "https://www.nature.com/articles/s41598-024-71548-3",
+        "publication_date": "06 Sept 2024",
+        "abstract": "In intensive care unit (ICU) patients undergoing mechanical ventilation (MV), the occurrence of difficult weaning contributes to increased ventilator-related complications, prolonged hospitalization duration, and a significant rise in healthcare costs. Therefore, early identification of influencing factors and prediction of patients at risk of difficult weaning can facilitate early intervention and preventive measures. This study aimed to strengthen airway management for ICU patients by constructing a risk prediction model with comprehensive and individualized offline programs based on machine learning techniques. This study involved the collection of data from 487 patients undergoing MV in the ICU, with a total of 36 variables recorded. The dataset was divided into a training set (70% of the data) and a test set (30% of the data). Five machine learning models, namely logistic regression, random forest, support vector machine, light gradient boosting machine, and extreme gradient boosting, were compared to predict the risk of difficult weaning in ICU patients with MV. Significant influencing factors were identified based on the results of these models, and a risk prediction model for ICU patients with MV was established. When evaluating the models using AUC (Area under the Curve of ROC) and Accuracy as performance metrics, the Random Forest algorithm exhibited the best performance among the five machine learning algorithms. The area under the operating characteristic curve for the subjects was 0.805, with an accuracy of 0.748, recall (0.888), specificity (0.767) and F1 score (0.825). This study successfully developed a risk prediction model for ICU patients with MV using a machine learning algorithm. The Random Forest algorithm demonstrated the highest prediction performance. These findings can assist clinicians in accurately assessing the risk of difficult weaning in patients and formulating effective individualized treatment plans. Ultimately, this can help reduce the risk of difficult weaning and improve the quality of life for patients.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Multiparametric influence of 3D-printed organo-mineral scaffolds on bone regeneration",
+        "link": "https://www.nature.com/articles/s41598-024-71698-4",
+        "publication_date": "06 Sept 2024",
+        "abstract": "The development of synthetic bone substitutes that equal or exceed the efficacy of autologous graft remains challenging. In this study, a rat calvarial defect model was used as a reference to investigate the influence of composition and architecture of 3D-printed cement, with or without bioactives, on tissue regeneration. Printable cement pastes were formulated by combining hyaluronic acid and cement precursors. Cementitious scaffolds were printed with 3 different patterns. After 7 weeks of implantation with or without bone marrow, multiparametric qualitative and quantitative assessments were performed using µCT, SEM, and histology. None of the set-up strategies was as efficient as autologous cancellous bone graft to repair calvarial defects. Nonetheless, the presence of scaffold improved the skull vault closure, particularly when the scaffold was soaked in total bone marrow before implantation. No significant effect of scaffold macro-architecture was observed on tissue mineralization. Magnesium phosphate-based scaffolds (MgP) seemed to induce higher bone formation than their calcium-phosphate-based counterparts. They also displayed a quicker biodegradation and sparse remaining material was found after 7 weeks of implantation. Although further improvements are required to reach clinical settings, this study demonstrated the potential of organo-mineral cements for bone regeneration and highlighted the peculiar properties of MgP-based cements.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "A multicentre study to evaluate the diagnostic performance of a novel CAD software, DecXpert, for radiological diagnosis of tuberculosis in the northern Indian population",
+        "link": "https://www.nature.com/articles/s41598-024-71346-x",
+        "publication_date": "05 Sept 2024",
+        "abstract": "Tuberculosis (TB) is the leading cause of mortality among infectious diseases globally. Effectively managing TB requires early identification of individuals with TB disease. Resource-constrained settings often lack skilled professionals for interpreting chest X-rays (CXRs) used in TB diagnosis. To address this challenge, we developed “DecXpert” a novel Computer-Aided Detection (CAD) software solution based on deep neural networks for early TB diagnosis from CXRs, aiming to detect subtle abnormalities that may be overlooked by human interpretation alone. This study was conducted on the largest cohort size to date, where the performance of a CAD software (DecXpert version 1.4) was validated against the gold standard molecular diagnostic technique, GeneXpert MTB/RIF, analyzing data from 4363 individuals across 12 primary health care centers and one tertiary hospital in North India. DecXpert demonstrated 88% sensitivity (95% CI 0.85–0.93) and 85% specificity (95% CI 0.82–0.91) for active TB detection. Incorporating demographics, DecXpert achieved an area under the curve of 0.91 (95% CI 0.88–0.94), indicating robust diagnostic performance. Our findings establish DecXpert's potential as an accurate, efficient AI solution for early identification of active TB cases. Deployed as a screening tool in resource-limited settings, DecXpert could enable early identification of individuals with TB disease and facilitate effective TB management where skilled radiological interpretation is limited.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Increased coherence predicts medical refractoriness in patients with temporal lobe epilepsy on monotherapy",
+        "link": "https://www.nature.com/articles/s41598-024-71583-0",
+        "publication_date": "04 Sept 2024",
+        "abstract": "Among patients with epilepsy, 30–40% experience recurrent seizures even after adequate antiseizure medications therapies, making them refractory. The early identification of refractory epilepsy is important to provide timely surgical treatment for these patients. In this study, we analyze interictal electroencephalography (EEG) data to predict drug refractoriness in patients with temporal lobe epilepsy (TLE) who were treated with monotherapy at the time of the first EEG acquisition. Various EEG features were extracted, including statistical measurements and interchannel coherence. Feature selection was performed to identify the optimal features, and classification was conducted using different classifiers. Functional connectivity and graph theory measurements were calculated to identify characteristics of refractory TLE. Among the 48 participants, 34 (70.8%) were responsive, while 14 (29.2%) were refractory over a mean follow-up duration of 38.5 months. Coherence feature within the gamma frequency band exhibited the most favorable performance. The light gradient boosting model, employing the mutual information filter-based feature selection method, demonstrated the highest performance (AUROC = 0.821). Compared to the responsive group, interchannel coherence displayed higher values in the refractory group. Interestingly, graph theory measurements using EEG coherence exhibited higher values in the refractory group than in the responsive group. Our study has demonstrated a promising method for the early identification of refractory TLE utilizing machine learning algorithms.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Brain tumor image segmentation method using hybrid attention module and improved mask RCNN",
+        "link": "https://www.nature.com/articles/s41598-024-71250-4",
+        "publication_date": "04 Sept 2024",
+        "abstract": "To meet the needs of automated medical analysis of brain tumor magnetic resonance imaging, this study introduces an enhanced instance segmentation method built upon mask region-based convolutional neural network. By incorporating squeeze-and-excitation networks, a channel attention mechanism, and concatenated attention neural network, a spatial attention mechanism, the model can more adeptly focus on the critical regions and finer details of brain tumors. Residual network-50 combined attention module and feature pyramid network as the backbone network to effectively capture multi-scale characteristics of brain tumors. At the same time, the region proposal network and region of interest align technology were used to ensure that the segmentation area matched the actual tumor morphology. The originality of the research lies in the deep residual network that combines attention mechanism with feature pyramid network to replace the backbone based on mask region convolutional neural network, achieving an improvement in the efficiency of brain tumor feature extraction. After a series of experiments, the precision of the model is 90.72%, which is 0.76% higher than that of the original model. Recall was 91.68%, an increase of 0.95%; Mean Intersection over Union was 94.56%, an increase of 1.39%. This method achieves precise segmentation of brain tumor magnetic resonance imaging, and doctors can easily and accurately locate the tumor area through the segmentation results, thereby quickly measuring the diameter, area, and other information of the tumor, providing doctors with more comprehensive diagnostic information.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "A framework for sharing of clinical and genetic data for precision medicine applications",
+        "link": "https://www.nature.com/articles/s41591-024-03239-5",
+        "publication_date": "03 Sept 2024",
+        "abstract": "Precision medicine has the potential to provide more accurate diagnosis, appropriate treatment and timely prevention strategies by considering patients’ biological makeup. However, this cannot be realized without integrating clinical and omics data in a data-sharing framework that achieves large sample sizes. Systems that integrate clinical and genetic data from multiple sources are scarce due to their distinct data types, interoperability, security and data ownership issues. Here we present a secure framework that allows immutable storage, querying and analysis of clinical and genetic data using blockchain technology. Our platform allows clinical and genetic data to be harmonized by combining them under a unified framework. It supports combined genotype–phenotype queries and analysis, gives institutions control of their data and provides immutable user access logs, improving transparency into how and when health information is used. We demonstrate the value of our framework for precision medicine by creating genotype–phenotype cohorts and examining relationships within them. We show that combining data across institutions using our secure platform increases statistical power for rare disease analysis. By offering an integrated, secure and decentralized framework, we aim to enhance reproducibility and encourage broader participation from communities and patients in data sharing.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Classification of ossicular fixation based on a computational simulation of ossicular mobility",
+        "link": "https://www.nature.com/articles/s41598-024-71474-4",
+        "publication_date": "03 Sept 2024",
+        "abstract": "Ossicular fixation disturbs the mobility of the ossicular chain and causes conductive hearing loss. To diagnose the lesion area, otologists typically assess ossicular mobility through intraoperative palpation. Quantification of ossicular mobility and evidence-based diagnostic criteria are necessary for accurate assessment of each pathology, because diagnosis via palpation can rely on the surgeons’ experiences and skills. In this study, ossicular mobilities were simulated in 92 pathological cases of ossicular fixation as compliances using a finite-element (FE) model of the human middle ear. The validity of the ossicular mobilities obtained from the FE model was verified by comparison with measurements of ossicular mobilities in cadavers using our newly developed intraoperative ossicular mobility measurement system. The fixation-induced changes in hearing were validated by comparison with changes in the stapedial velocities obtained from the FE model with measurements reported in patients and in temporal bones. The 92 cases were classified into four groups by conducting a cluster analysis based on the simulated ossicular compliances. Most importantly, the cases of combined fixation of the malleus and/or the incus with otosclerosis were classified into two different surgical procedure groups by degree of fixation, i.e., malleo-stapedotomy and stapedotomy. These results suggest that pathological characteristics can be detected using quantitatively measured ossicular compliances followed by cluster analysis, and therefore, an effective diagnosis of ossicular fixation is achievable.",
+        "conclusions": "In this study, 92 various pathological conditions associated with ossicular fixations were classified into four discrete groups via a cluster analysis using a dataset composed of ossicular compliances obtained from a FE-model. Most importantly, combined fixation cases of the malleus or/and the incus with otosclerosis, which could have similar hearing loss degree, were classified into two different surgical procedure groups, i.e., malleo-stapedotomy/stapedectomy and stapedotomy/stapedectomy. Particularly noteworthy that these cases are difficult to identify by existing clinical tests and palpation. In the context of clinical implementation, our results suggest that it is possible to categorize pathological conditions of combined ossicular fixation based on quantitatively measured ossicular mobilities, and achieve a quantitative and effective diagnosis. To achieve a more accurate classification and to identify effective measurement points or angles, it is essential to increase the features of the dataset by varying the calculation points and/or directions.",
+        "ml_techniques": [
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Neoadjuvant immune checkpoint blockade in women with mismatch repair deficient endometrial cancer: a phase I study",
+        "link": "https://www.nature.com/articles/s41467-024-52098-8",
+        "publication_date": "03 Sept 2024",
+        "abstract": "Neoadjuvant immune checkpoint blockade (ICB) has shown unprecedented activity in mismatch repair deficient (MMRd) colorectal cancers, but its effectiveness in MMRd endometrial cancer (EC) remains unknown. In this investigator-driven, phase I, feasibility study (NCT04262089), 10 women with MMRd EC of any grade, planned for primary surgery, received two cycles of neoadjuvant pembrolizumab (200 mg IV) every three weeks. A pathologic response (primary objective) was observed in 5/10 patients, with 2 patients showing a major pathologic response. No patient achieved a complete pathologic response. A partial radiologic response (secondary objective) was observed in 3/10 patients, 5/10 patients had stable disease and 2/10 patients were non-evaluable on magnetic resonance imaging. All patients completed treatment without severe toxicity (exploratory objective). At median duration of follow-up of 22.5 months, two non-responders experienced disease recurrence. In-depth analysis of the loco-regional and systemic immune response (predefined exploratory objective) showed that monoclonal T cell expansion significantly correlated with treatment response. Tumour-draining lymph nodes displayed clonal overlap with intra-tumoural T cell expansion. All pre-specified endpoints, efficacy in terms of pathologic response as primary endpoint, radiologic response as secondary outcome and safety and tolerability as exploratory endpoint, were reached. Neoadjuvant ICB with pembrolizumab proved safe and induced pathologic, radiologic, and immunologic responses in MMRd EC, warranting further exploration of extended neoadjuvant treatment.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Identification of lysine lactylation (kla)-related lncRNA signatures using XGBoost to predict prognosis and immune microenvironment in breast cancer patients",
+        "link": "https://www.nature.com/articles/s41598-024-71482-4",
+        "publication_date": "03 Sept 2024",
+        "abstract": "Breast cancer (BC) stands as a predominant global malignancy, significantly contributing to female mortality. Recently uncovered, histone lysine lactylation (kla) has assumed a crucial role in cancer progression. However, the correlation with lncRNAs remains ambiguous. Scrutinizing lncRNAs associated with Kla not only improves clinical breast cancer management but also establishes a groundwork for antitumor drug development. We procured breast tissue samples, encompassing both normal and cancerous specimens, from The Cancer Genome Atlas (TCGA) database. Utilizing Cox regression and XGBoost methods, we developed a prognostic model using identified kla-related lncRNAs. The model's predictive efficacy underwent validation across training, testing, and the overall cohort. Functional analysis concerning kla-related lncRNAs ensued. We identified and screened 8 kla-related lncRNAs to formulate the risk model. Pathway analysis disclosed the connection between immune-related pathways and the risk model of kla-related lncRNAs. Significantly, the risk scores exhibited a correlation with both immune cell infiltration and immune function, indicating a clear association. Noteworthy is the observation that patients with elevated risk scores demonstrated an increased tumor mutation burden (TMB) and decreased tumor immune dysfunction and exclusion (TIDE) scores, suggesting heightened responses to immune checkpoint blockade. Our study uncovers a potential link between Kla-related lncRNAs and BC, providing innovative therapeutic guidelines for BC management.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN"
+        ],
+        "security_privacy": {
+            "Attack Types": [
+                "evasion"
+            ],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Impact of acquisition area on deep-learning-based glaucoma detection in different plexuses in OCTA",
+        "link": "https://www.nature.com/articles/s41598-024-71235-3",
+        "publication_date": "02 Sept 2024",
+        "abstract": "Glaucoma is a group of neurodegenerative diseases that can lead to irreversible blindness. Yet, the progression can be slowed down if diagnosed and treated early enough. Optical coherence tomography angiography (OCTA) can non-invasively provide valuable information about the retinal microcirculation that has shown to be correlated with the onset of the disease. The vessel density (VD) is the most commonly used biomarker to quantify this vascular information. However, different studies showed that there is a great impact of the acquisition area on the performance of the VD to distinguish between glaucoma patients and a healthy control group. It also seems that the separate capillary plexuses are differently affected by the disease and therefore also influence the results. So in this study we investigate the impact of the acquisition area (3 \\(\\times \\) 3 \\(\\textrm{mm}\\) macular scan, 6.44 \\(\\times \\) 6.4 \\(\\textrm{mm}\\) macular scan, 6 \\(\\times \\) 6 \\(\\textrm{mm}\\) optic nerve head (ONH) scan) and the different plexuses on the machine-learning-based distinction between glaucoma patients and healthy controls. The results yielded that the 6 \\(\\times \\) 6 \\(\\textrm{mm}\\) ONH show the best performance over all plexuses. Moreover the deep learning-based approach outperforms the VD as a biomarker on every acquisition area and plexus. In addition to that, it also performs better than traditional biomarkers obtained from the OCT scans that are used in the clinical routine for diagnosis and progression tracking of glaucoma. Consequently, OCTA scans of the ONH might be a useful addition to OCT when studying glaucoma.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "An international study presenting a federated learning AI platform for pediatric brain tumors",
+        "link": "https://www.nature.com/articles/s41467-024-51172-5",
+        "publication_date": "02 Sept 2024",
+        "abstract": "While multiple factors impact disease, artificial intelligence (AI) studies in medicine often use small, non-diverse patient cohorts due to data sharing and privacy issues. Federated learning (FL) has emerged as a solution, enabling training across hospitals without direct data sharing. Here, we present FL-PedBrain, an FL platform for pediatric posterior fossa brain tumors, and evaluate its performance on a diverse, realistic, multi-center cohort. Pediatric brain tumors were targeted due to the scarcity of such datasets, even in tertiary care hospitals. Our platform orchestrates federated training for joint tumor classification and segmentation across 19 international sites. FL-PedBrain exhibits less than a 1.5% decrease in classification and a 3% reduction in segmentation performance compared to centralized data training. FL boosts segmentation performance by 20 to 30% on three external, out-of-network sites. Finally, we explore the sources of data heterogeneity and examine FL robustness in real-world scenarios with data imbalances.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Comparative analysis of artificial intelligence and expert assessments in detecting neonatal procedural pain",
+        "link": "https://www.nature.com/articles/s41598-024-71278-6",
+        "publication_date": "02 Sept 2024",
+        "abstract": "Assessing pain in newborns in the NICU is crucial due to their frequent exposure to painful stimuli, yet it's challenging due to the subjective nature of current methods. This study aimed to evaluate the effectiveness of an AI system designed for automatic facial recognition by comparing its performance with the expert opinion of health care provider. This is a secondary analysis from an eye-tracking study, assessing neonatal pain evaluations by healthcare professionals. The performance of AI software, FaceReader 9, was compared to experts' evaluations using a visual-analog scale, focusing on identifying specific facial action units associated with different pain levels. The study found significant differences in AI-generated metrics—arousal and valence—across three stimulus types: non-noxious thermal, short-noxious, and prolonged-noxious, with p-values below 0.001. A strong correlation (r = 0.84, p ≤ .001) was observed between AI metrics and expert ratings. Eleven facial action units were identified as relevant to describe neonatal pain. The findings highlight the AI system's potential in accurately detecting and analyzing newborn facial expressions in response to varying pain intensities, demonstrating a significant correlation with healthcare professionals' assessments. This suggests that AI technology could enhance objective pain assessment in neonates.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Cognitive subgroups of affective and non-affective psychosis show differences in medication and cortico-subcortical brain networks",
+        "link": "https://www.nature.com/articles/s41598-024-71316-3",
+        "publication_date": "02 Sept 2024",
+        "abstract": "Cognitive deficits are prevalent in individuals with psychosis and are associated with neurobiological changes, potentially serving as an endophenotype for psychosis. Using the HCP-Early-Psychosis-dataset (n = 226), we aimed to investigate cognitive subtypes (deficit/intermediate/spared) through data-driven clustering in affective (AP) and non-affective psychosis patients (NAP) and controls (HC). We explored differences between three clusters in symptoms, cognition, medication, and grey matter volume. Applying principal component analysis, we selected features for clustering. Features that explained most variance were scores for intelligence, verbal recognition and comprehension, auditory attention, working memory, reasoning and executive functioning. Fuzzy K-Means clustering on those features revealed that the subgroups significantly varied in cognitive impairment, clinical symptoms, and, importantly, also in medication and grey matter volume in fronto-parietal and subcortical networks. The spared cluster (86%HC, 37%AP, 17%NAP) exhibited unimpaired cognition, lowest symptoms/medication, and grey matter comparable to controls. The deficit cluster (4%HC, 10%AP, 47%NAP) had impairments across all domains, highest symptoms scores/medication dosage, and pronounced grey matter alterations. The intermediate deficit cluster (11%HC, 54%AP, 36%NAP) showed fewer deficits than the second cluster, but similar symptoms/medication/grey matter to the spared cluster. Controlling for medication, cognitive scores correlated with grey matter changes and negative symptoms across all patients. Our findings generally emphasize the interplay between cognition, brain structure, symptoms, and medication in AP and NAP, and specifically suggest a possible mediating role of cognition, highlighting the potential of screening cognitive changes to aid tailoring treatments and interventions.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Leveraging multiple data types for improved compound-kinase bioactivity prediction",
+        "link": "https://www.nature.com/articles/s41467-024-52055-5",
+        "publication_date": "31 Aug 2024",
+        "abstract": "Machine learning provides efficient ways to map compound-kinase interactions. However, diverse bioactivity data types, including single-dose and multi-dose-response assay results, present challenges. Traditional models utilize only multi-dose data, overlooking information contained in single-dose measurements. Here, we propose a machine learning methodology for compound-kinase activity prediction that leverages both single-dose and dose-response data. We demonstrate that our two-stage approach yields accurate activity predictions and significantly improves model performance compared to training solely on dose-response labels. This superior performance is consistent across five diverse machine learning methods. Using the best performing model, we carried out extensive experimental profiling on a total of 347 selected compound-kinase pairs, achieving a high hit rate of 40% and a negative predictive value of 78%. We show that these rates can be improved further by incorporating model uncertainty estimates into the compound selection process. By integrating multiple activity data types, we demonstrate that our approach holds promise for facilitating the development of training activity datasets in a more efficient and cost-effective way.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Comparison of AI-integrated pathways with human-AI interaction in population mammographic screening for breast cancer",
+        "link": "https://www.nature.com/articles/s41467-024-51725-8",
+        "publication_date": "30 Aug 2024",
+        "abstract": "Artificial intelligence (AI) readers of mammograms compare favourably to individual radiologists in detecting breast cancer. However, AI readers cannot perform at the level of multi-reader systems used by screening programs in countries such as Australia, Sweden, and the UK. Therefore, implementation demands human-AI collaboration. Here, we use a large, high-quality retrospective mammography dataset from Victoria, Australia to conduct detailed simulations of five potential AI-integrated screening pathways, and examine human-AI interaction effects to explore automation bias. Operating an AI reader as a second reader or as a high confidence filter improves current screening outcomes by 1.9–2.5% in sensitivity and up to 0.6% in specificity, achieving 4.6–10.9% reduction in assessments and 48–80.7% reduction in human reads. Automation bias degrades performance in multi-reader settings but improves it for single-readers. This study provides insight into feasible approaches for AI-integrated screening pathways and prospective studies necessary prior to clinical adoption.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Subphenotypes of platelet count trajectories in sepsis from multi-center ICU data",
+        "link": "https://www.nature.com/articles/s41598-024-71186-9",
+        "publication_date": "30 Aug 2024",
+        "abstract": "Although thrombocytopenia on admission to the ICU is associated with increased in-hospital mortality in septic patients, the role of longitudinally measured platelet counts, which are dynamically changing, is unclear. We aimed to identify patterns of dynamic platelet count trajectories and evaluate their association with outcomes and thrombocytopenia in septic patients. We tested the longitudinal platelet trajectory patterns of sepsis patients within the first four days of ICU admission in the MIMIC-IV database and their association with 28-day mortality, and independently validated our findings in the eICU-CRD database. Statistical methods used included multivariate regression, propensity score analysis, doubly robust estimation, gradient boosting model, and inverse probability weighting to ensure the robustness of our findings. A total of 22,866 septic patients were included in our study. The trajectory analysis categorizes patients into ascending (AS), stable (ST), or descending (DS) patterns. The risk of 28-day mortality was increased in the DS patients (OR = 2.464, 95%CI 1.895–3.203, p < 0.001) and ST patients (OR = 1.302, 95%CI 1.067–1.589, p = 0.009) compared to AS patients. The AS patients had lower ICU length of stay (2.36 vs. 4.32, p < 0.001) and 28-day maximum SOFA scores (5.00 vs. 6.00, p < 0.001) than the DS patients, but had more ventilator-free days within 28 days than the DS group (26.00 vs. 24.00, p < 0.001). The mediating effect of thrombocytopenia was significant (p < 0.001 for the average causal mediation effect (ACME)). Longitudinal platelet trajectory was associated with risk-adjusted 28-day mortality among patients with sepsis and was proportionally mediated through thrombocytopenia.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "CAPZB mRNA is a novel biomarker for cervical high-grade squamous lesions",
+        "link": "https://www.nature.com/articles/s41598-024-71112-z",
+        "publication_date": "29 Aug 2024",
+        "abstract": "This study aimed to evaluate the potential of capping protein (actin filament) muscle Z-line subunit β (CAPZB) messenger ribonucleic acid (mRNA) levels as a biomarker for distinguishing low-grade squamous intraepithelial lesions of the cervix (LSIL) from high-grade squamous intraepithelial lesions of the cervix (HSIL). We collected a total of 166 cervical exfoliated cells and divided them into five groups based on histopathological results. Each sample was divided into two portions, one for fluorescence in situ hybridization (FISH) detection and the other for bisulfite sequencing polymerase chain reaction (BSP) detection. We found that FISH detection of CAPZB mRNA mean fluorescence intensity (MFI) and BSP detection of CAPZB deoxyribonucleic acid (DNA) percentage of methylation rate (PMR) performed as biomarkers for distinguishing HSIL from LSIL, with an area under the receiver operating characteristic curve (AUC), sensitivity, specificity and cut-off value of 0.893, 81.25%, 80.39% and 0.616, 0.794, 64.06%, 81.37% and 0.454, respectively. Furthermore, FISH detection of CAPZB mRNA exhibited a greater AUC (0.893) for the detection of HSIL than the CAPZB DNA methylation method (0.794), indicating the CAPZB mRNA levels can be used as a biomarker for assessing cervical lesions.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Prediction of treatment outcome for branch retinal vein occlusion using convolutional neural network-based retinal fluorescein angiography",
+        "link": "https://www.nature.com/articles/s41598-024-71061-7",
+        "publication_date": "28 Aug 2024",
+        "abstract": "Deep learning techniques were used in ophthalmology to develop artificial intelligence (AI) models for predicting the short-term effectiveness of anti-VEGF therapy in patients with macular edema secondary to branch retinal vein occlusion (BRVO-ME). 180 BRVO-ME patients underwent pre-treatment FFA scans. After 3 months of ranibizumab injections, CMT measurements were taken at baseline and 1-month intervals. Patients were categorized into good and poor prognosis groups based on macular edema at the 4th month follow-up. FFA-Net, a VGG-based classification network, was trained using FFA images from both groups. Class activation heat maps highlighted important locations. Benchmark models (DesNet-201, MobileNet-V3, ResNet-152, MansNet-75) were compared for training results. Performance metrics included accuracy, sensitivity, specificity, F1 score, and ROC curves. FFA-Net predicted BRVO-ME treatment effect with an accuracy of 88.63% and an F1 score of 0.89, with a sensitivity and specificity of 79.40% and 71.34%, respectively.The AUC of the ROC curve for the FFA-Net model was 0.71. The use of FFA based on deep learning technology has feasibility in predicting the treatment effect of BRVO-ME. The FFA-Net model constructed with the VGG model as the main body has good results in predicting the treatment effect of BRVO-ME. The typing of BRVO in FFA may be an important factor affecting the prognosis.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Pretrained subtraction and segmentation model for coronary angiograms",
+        "link": "https://www.nature.com/articles/s41598-024-71063-5",
+        "publication_date": "27 Aug 2024",
+        "abstract": "This study introduces a novel self-supervised learning method for single-frame subtraction and vessel segmentation in coronary angiography, addressing the scarcity of annotated medical samples in AI applications. We pretrain a U-Net model on a large dataset of unannotated coronary angiograms using an image-to-image translation framework, then fine-tune it on a limited set of manually annotated samples. The pretrained model excels at comprehensive single-frame subtraction, outperforming existing DSA methods. Fine-tuning with just 40 samples yields a Dice coefficient of 0.828 for vessel segmentation. On the public XCAD dataset, our model sets a new state-of-the-art benchmark with a Dice coefficient of 0.755, surpassing both unsupervised and supervised learning approaches. This method achieves robust single-frame subtraction and demonstrates that combining pretraining with minimal fine-tuning enables accurate coronary vessel segmentation with limited manual annotations. We successfully apply this approach to assist physicians in visualizing potential vascular stenosis sites during coronary angiography. Code, dataset, and a live demo will be available available at: https://github.com/newfyu/DeepSA.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Visual interpretability of image-based classification models by generative latent space disentanglement applied to in vitro fertilization",
+        "link": "https://www.nature.com/articles/s41467-024-51136-9",
+        "publication_date": "27 Aug 2024",
+        "abstract": "The success of deep learning in identifying complex patterns exceeding human intuition comes at the cost of interpretability. Non-linear entanglement of image features makes deep learning a “black box” lacking human meaningful explanations for the models’ decision. We present DISCOVER, a generative model designed to discover the underlying visual properties driving image-based classification models. DISCOVER learns disentangled latent representations, where each latent feature encodes a unique classification-driving visual property. This design enables “human-in-the-loop” interpretation by generating disentangled exaggerated counterfactual explanations. We apply DISCOVER to interpret classification of in vitro fertilization embryo morphology quality. We quantitatively and systematically confirm the interpretation of known embryo properties, discover properties without previous explicit measurements, and quantitatively determine and empirically verify the classification decision of specific embryo instances. We show that DISCOVER provides human-interpretable understanding of “black box” classification models, proposes hypotheses to decipher underlying biomedical mechanisms, and provides transparency for the classification of individual predictions.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Personalized dose selection for the first Waldenström macroglobulinemia patient on the PRECISE CURATE.AI trial",
+        "link": "https://www.nature.com/articles/s41746-024-01195-5",
+        "publication_date": "27 Aug 2024",
+        "abstract": "The digital revolution in healthcare, amplified by the COVID-19 pandemic and artificial intelligence (AI) advances, has led to a surge in the development of digital technologies. However, integrating digital health solutions, especially AI-based ones, in rare diseases like Waldenström macroglobulinemia (WM) remains challenging due to limited data, among other factors. CURATE.AI, a clinical decision support system, offers an alternative to big data approaches by calibrating individual treatment profiles based on that individual’s data alone. We present a case study from the PRECISE CURATE.AI trial with a WM patient, where, over two years, CURATE.AI provided dynamic Ibrutinib dose recommendations to clinicians (users) aimed at achieving optimal IgM levels. An 80-year-old male with newly diagnosed WM requiring treatment due to anemia was recruited to the trial for CURATE.AI-based dosing of the Bruton tyrosine kinase inhibitor Ibrutinib. The primary and secondary outcome measures were focused on scientific and logistical feasibility. Preliminary results underscore the platform’s potential in enhancing user and patient engagement, in addition to clinical efficacy. Based on a two-year-long patient enrollment into the CURATE.AI-augmented treatment, this study showcases how AI-enabled tools can support the management of rare diseases, emphasizing the integration of AI to enhance personalized therapy.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "BioTrojans: viscoelastic microvalve-based attacks in flow-based microfluidic biochips and their countermeasures",
+        "link": "https://www.nature.com/articles/s41598-024-70703-0",
+        "publication_date": "27 Aug 2024",
+        "abstract": "Flow-based microfluidic biochips (FMBs) are widely used in biomedical research and diagnostics. However, their security against potential material-level cyber-physical attacks remains inadequately explored, posing a significant future challenge. One of the main components, polydimethylsiloxane (PDMS) microvalves, is pivotal to FMBs' functionality. However, their fabrication, which involves thermal curing, makes them susceptible to chemical tampering-induced material degradation attacks. Here, we demonstrate one such material-based attack termed “BioTrojans,” which are chemically tampered and optically stealthy microvalves that can be ruptured through low-frequency actuations. To chemically tamper with the microvalves, we altered the associated PDMS curing ratio. Attack demonstrations showed that BioTrojan valves with 30:1 and 50:1 curing ratios ruptured quickly under 2 Hz frequency actuations, while authentic microvalves with a 10:1 ratio remained intact even after being actuated at the same frequency for 2 days (345,600 cycles). Dynamic mechanical analyzer (DMA) results and associated finite element analysis revealed that a BioTrojan valve stores three orders of magnitude more mechanical energy than the authentic one, making it highly susceptible to low-frequency-induced ruptures. To counter BioTrojan attacks, we propose a security-by-design approach using smooth peripheral fillets to reduce stress concentration by over 50% and a spectral authentication method using fluorescent microvalves capable of effectively detecting BioTrojans.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Enhanced machine learning approaches for OSA patient screening: model development and validation study",
+        "link": "https://www.nature.com/articles/s41598-024-70647-5",
+        "publication_date": "26 Aug 2024",
+        "abstract": "Age, gender, body mass index (BMI), and mean heart rate during sleep were found to be risk factors for obstructive sleep apnea (OSA), and a variety of methods have been applied to predict the occurrence of OSA. This study aimed to develop and evaluate OSA prediction models using simple and accessible parameters, combined with multiple machine learning algorithms, and integrate them into a cloud-based mobile sleep medicine management platform for clinical use. The study data were obtained from the clinical records of 610 patients who underwent polysomnography (PSG) at the Sleep Medicine Center of the Second Affiliated Hospital of Fujian Medical University between January 2021 and December 2022. The participants were randomly divided into a training-test group (80%) and an independent validation group (20%). The logistic regression, artificial neural network, naïve Bayes, support vector machine, random forest, and decision tree algorithms were used with age, gender, BMI, and mean heart rate during sleep as predictors to build a risk prediction model for moderate-to-severe OSA. To evaluate the performance of the models, we calculated the area under the receiver operating curve (AUROC), accuracy, recall, specificity, precision, and F1-score for the independent validation set. In addition, the calibration curve, decision curve, and clinical impact curve were generated to determine clinical usefulness. Age, gender, BMI, and mean heart rate during sleep were significantly associated with OSA. The artificial neural network model had the best efficacy compared with the other prediction algorithms. The AUROC, accuracy, recall, specificity, precision, F1-score, and Brier score were 80.4% (95% CI 76.7–84.1%), 69.9% (95% CI 69.8–69.9%), 86.5% (95% CI 81.6–91.3%), 61.5% (95% CI 56.6–66.4%), 53.2% (95% CI 47.7–58.7%), 65.9% (95% CI 60.2–71.5%), and 0.165, respectively, for the artificial neural network model. The AUROCs for the LR, NB, SVM, RF, and DT models were 80.2%, 79.7%, 79.2%, 78.4%, and 70.4%, respectively. The six models based on four simple and easily accessible parameters effectively predicted moderate-to-severe OSA in patients with PSG screening, with the artificial neural network model having the best performance. These models can provide a reliable tool for early OSA diagnosis, and their integration into a cloud-based mobile sleep medicine management platform could improve clinical decision making.",
+        "conclusions": "In conclusion, our study has highlighted the underappreciated impact and disease burden associated with moderate-to-severe obstructive sleep apnea (OSA). We addressed this gap by developing six streamlined risk prediction models utilizing logistic regression (LR), artificial neural network (ANN), naïve Bayes (NB), support vector machine (SVM), random forest (RF), and decision tree (DT).Among these models, the artificial neural network (ANN) model demonstrated significant potential for practical implementation within a cloud-based mobile sleep medicine management platform. Particularly noteworthy is the identification and integration of four key predictors—age, gender, BMI, and mean heart rate during sleep—into the modeling process. These predictors have shown substantial capability in predicting the severity of OSA with notable accuracy.Our findings present a convenient and effective tool for the early detection of OSA by leveraging readily available data, and show the practical application of OSA screening model in clinical scenarios. Future research could further explore combinations of predictors that are even more sensitive and specific, thus enhancing overall model performance.",
+        "ml_techniques": [
+            "Traditional ML"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Long COVID diagnostic with differentiation from chronic lyme disease using machine learning and cytokine hubs",
+        "link": "https://www.nature.com/articles/s41598-024-70929-y",
+        "publication_date": "26 Aug 2024",
+        "abstract": "The absence of a long COVID (LC) or post-acute sequelae of COVID-19 (PASC) diagnostic has profound implications for research and potential therapeutics given the lack of specificity with symptom-based identification of LC and the overlap of symptoms with other chronic inflammatory conditions. Here, we report a machine-learning approach to LC/PASC diagnosis on 347 individuals using cytokine hubs that are also capable of differentiating LC from chronic lyme disease (CLD). We derived decision tree, random forest, and gradient-boosting machine (GBM) classifiers and compared their diagnostic capabilities on a dataset partitioned into training (178 individuals) and evaluation (45 individuals) sets. The GBM model generated 89% sensitivity and 96% specificity for LC with no evidence of overfitting. We tested the GBM on an additional random dataset (106 LC/PASC and 18 Lyme), resulting in high sensitivity (97%) and specificity (90%) for LC. We constructed a Lyme Index confirmatory algorithm to discriminate LC and CLD.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Predicting gastric cancer response to anti-HER2 therapy or anti-HER2 combined immunotherapy based on multi-modal data",
+        "link": "https://www.nature.com/articles/s41392-024-01932-y",
+        "publication_date": "26 Aug 2024",
+        "abstract": "The sole use of single modality data often fails to capture the complex heterogeneity among patients, including the variability in resistance to anti-HER2 therapy and outcomes of combined treatment regimens, for the treatment of HER2-positive gastric cancer (GC). This modality deficit has not been fully considered in many studies. Furthermore, the application of artificial intelligence in predicting the treatment response, particularly in complex diseases such as GC, is still in its infancy. Therefore, this study aimed to use a comprehensive analytic approach to accurately predict treatment responses to anti-HER2 therapy or anti-HER2 combined immunotherapy in patients with HER2-positive GC. We collected multi-modal data, comprising radiology, pathology, and clinical information from a cohort of 429 patients: 310 treated with anti-HER2 therapy and 119 treated with a combination of anti-HER2 and anti-PD-1/PD-L1 inhibitors immunotherapy. We introduced a deep learning model, called the Multi-Modal model (MuMo), that integrates these data to make precise treatment response predictions. MuMo achieved an area under the curve score of 0.821 for anti-HER2 therapy and 0.914 for combined immunotherapy. Moreover, patients classified as low-risk by MuMo exhibited significantly prolonged progression-free survival and overall survival (log-rank test, P < 0.05). These findings not only highlight the significance of multi-modal data analysis in enhancing treatment evaluation and personalized medicine for HER2-positive gastric cancer, but also the potential and clinical value of our model.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Multimodal fusion learning for long QT syndrome pathogenic genotypes in a racially diverse population",
+        "link": "https://www.nature.com/articles/s41746-024-01218-1",
+        "publication_date": "24 Aug 2024",
+        "abstract": "Congenital long QT syndrome (LQTS) diagnosis is complicated by limited genetic testing at scale, low prevalence, and normal QT corrected interval in patients with high-risk genotypes. We developed a deep learning approach combining electrocardiogram (ECG) waveform and electronic health record data to assess whether patients had pathogenic variants causing LQTS. We defined patients with high-risk genotypes as having ≥1 pathogenic variant in one of the LQTS-susceptibility genes. We trained the model using data from United Kingdom Biobank (UKBB) and then fine-tuned in a racially/ethnically diverse cohort using Mount Sinai BioMe Biobank. Following group-stratified 5-fold splitting, the fine-tuned model achieved area under the precision-recall curve of 0.29 (95% confidence interval [CI] 0.28–0.29) and area under the receiver operating curve of 0.83 (0.82–0.83) on independent testing data from BioMe. Multimodal fusion learning has promise to identify individuals with pathogenic genetic mutations to enable patient prioritization for further work up.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Spatio-temporal analysis of COVID-19 lockdown effect to survive in the US counties using ANN",
+        "link": "https://www.nature.com/articles/s41598-024-70415-5",
+        "publication_date": "23 Aug 2024",
+        "abstract": "This study aims to quantify the effectiveness of lockdown as a non-pharmacological solution for managing the COVID-19 pandemic. Daily COVID-19 death counts were collected for four states: California, Georgia, New Jersey, and South Carolina. The effectiveness of the lockdown was studied and the number of people saved during 7 days was evaluated. Five neural network models (MLP, FFNN, CFNN, ENN, and NARX) were implemented, and the results indicate that FFNN is the best prediction model. Based on this model, the total number of survivors over a 7-day period is 211, 270, 989, and 60 in California, Georgia, New Jersey, and South Carolina, respectively. The coefficients and weights of the FFNN for each state differ due to various factors, including socio-demographic conditions and the behavior of citizens towards lockdown laws. New Jersey and South Carolina have the most lockdowns and the least.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "MAPLES-DR: MESSIDOR Anatomical and Pathological Labels for Explainable Screening of Diabetic Retinopathy",
+        "link": "https://www.nature.com/articles/s41597-024-03739-6",
+        "publication_date": "23 Aug 2024",
+        "abstract": "Reliable automatic diagnosis of Diabetic Retinopathy (DR) and Macular Edema (ME) is an invaluable asset in improving the rate of monitored patients among at-risk populations and in enabling earlier treatments before the pathology progresses and threatens vision. However, the explainability of screening models is still an open question, and specifically designed datasets are required to support the research. We present MAPLES-DR (MESSIDOR Anatomical and Pathological Labels for Explainable Screening of Diabetic Retinopathy), which contains, for 198 images of the MESSIDOR public fundus dataset, new diagnoses for DR and ME as well as new pixel-wise segmentation maps for 10 anatomical and pathological biomarkers related to DR. This paper documents the design choices and the annotation procedure that produced MAPLES-DR, discusses the interobserver variability and the overall quality of the annotations, and provides guidelines on using the dataset in a machine learning context.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Infection Inspection: using the power of citizen science for image-based prediction of antibiotic resistance in Escherichia coli treated with ciprofloxacin",
+        "link": "https://www.nature.com/articles/s41598-024-69341-3",
+        "publication_date": "22 Aug 2024",
+        "abstract": "Antibiotic resistance is an urgent global health challenge, necessitating rapid diagnostic tools to combat its threat. This study uses citizen science and image feature analysis to profile the cellular features associated with antibiotic resistance in Escherichia coli. Between February and April 2023, we conducted the Infection Inspection project, in which 5273 volunteers made 1,045,199 classifications of single-cell images from five E. coli strains, labelling them as antibiotic-sensitive or antibiotic-resistant based on their response to the antibiotic ciprofloxacin. User accuracy in image classification reached 66.8 ± 0.1%, lower than our deep learning model's performance at 75.3 ± 0.4%, but both users and the model were more accurate when classifying cells treated at a concentration greater than the strain’s own minimum inhibitory concentration. We used the users’ classifications to elucidate which visual features influence classification decisions, most importantly the degree of DNA compaction and heterogeneity. We paired our classification data with an image feature analysis which showed that most of the incorrect classifications happened when cellular features varied from the expected response. This understanding informs ongoing efforts to enhance the robustness of our diagnostic methodology. Infection Inspection is another demonstration of the potential for public participation in research, specifically increasing public awareness of antibiotic resistance.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Genome-scale quantification and prediction of pathogenic stop codon readthrough by small molecules",
+        "link": "https://www.nature.com/articles/s41588-024-01878-5",
+        "publication_date": "22 Aug 2024",
+        "abstract": "Premature termination codons (PTCs) cause ~10–20% of inherited diseases and are a major mechanism of tumor suppressor gene inactivation in cancer. A general strategy to alleviate the effects of PTCs would be to promote translational readthrough. Nonsense suppression by small molecules has proven effective in diverse disease models, but translation into the clinic is hampered by ineffective readthrough of many PTCs. Here we directly tackle the challenge of defining drug efficacy by quantifying the readthrough of ~5,800 human pathogenic stop codons by eight drugs. We find that different drugs promote the readthrough of complementary subsets of PTCs defined by local sequence context. This allows us to build interpretable models that accurately predict drug-induced readthrough genome-wide, and we validate these models by quantifying endogenous stop codon readthrough. Accurate readthrough quantification and prediction will empower clinical trial design and the development of personalized nonsense suppression therapies.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Automatic prediction of obstructive sleep apnea in patients with temporomandibular disorder based on multidata and machine learning",
+        "link": "https://www.nature.com/articles/s41598-024-70432-4",
+        "publication_date": "21 Aug 2024",
+        "abstract": "Obstructive sleep apnea (OSA) is closely associated with the development and chronicity of temporomandibular disorder (TMD). Given the intricate pathophysiology of both OSA and TMD, comprehensive diagnostic approaches are crucial. This study aimed to develop an automatic prediction model utilizing multimodal data to diagnose OSA among TMD patients. We collected a range of multimodal data, including clinical characteristics, portable polysomnography, X-ray, and MRI data, from 55 TMD patients who reported sleep problems. This data was then analyzed using advanced machine learning techniques. Three-dimensional VGG16 and logistic regression models were used to identify significant predictors. Approximately 53% (29 out of 55) of TMD patients had OSA. Performance accuracy was evaluated using logistic regression, multilayer perceptron, and area under the curve (AUC) scores. OSA prediction accuracy in TMD patients was 80.00–91.43%. When MRI data were added to the algorithm, the AUC score increased to 1.00, indicating excellent capability. Only the obstructive apnea index was statistically significant in predicting OSA in TMD patients, with a threshold of 4.25 events/h. The learned features of the convolutional neural network were visualized as a heatmap using a gradient-weighted class activation mapping algorithm, revealing that it focuses on differential anatomical parameters depending on the absence or presence of OSA. In OSA-positive cases, the nasopharynx, oropharynx, uvula, larynx, epiglottis, and brain region were recognized, whereas in OSA-negative cases, the tongue, nose, nasal turbinate, and hyoid bone were recognized. Prediction accuracy and heat map analyses support the plausibility and usefulness of this artificial intelligence-based OSA diagnosis and prediction model in TMD patients, providing a deeper understanding of regions distinguishing between OSA and non-OSA.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Transcriptome profiling of pediatric extracranial solid tumors and lymphomas enables rapid low-cost diagnostic classification",
+        "link": "https://www.nature.com/articles/s41598-024-70541-0",
+        "publication_date": "21 Aug 2024",
+        "abstract": "Approximately 80% of pediatric tumors occur in low- and middle-income countries (LMIC), where diagnostic tools essential for treatment decisions are often unavailable or incomplete. Development of cost-effective molecular diagnostics will help bridge the cancer diagnostic gap and ultimately improve pediatric cancer outcomes in LMIC settings. We investigated the feasibility of using nanopore whole transcriptome sequencing on formalin-fixed paraffin embedded (FFPE)-derived RNA and a composite machine learning model for pediatric solid tumor diagnosis. Transcriptome cDNA sequencing was performed on a heterogenous set of 221 FFPE and 32 fresh frozen pediatric solid tumor and lymphoma specimens on Oxford Nanopore Technologies’ sequencing platforms. A composite machine learning model was then used to classify transcriptional profiles into clinically actionable tumor types and subtypes. In total, 95.6% and 89.7% of pediatric solid tumors and lymphoma specimens were correctly classified, respectively. 71.5% of pediatric solid tumors had prediction probabilities > 0.8 and were classified with 100% accuracy. Similarly, for lymphomas, 72.4% of samples that had prediction probabilities > 0.6 were classified with 97.6% accuracy. Additionally, FOXO1 fusion status was predicted accurately for 97.4% of rhabdomyosarcomas and MYCN amplification was predicted with 88% accuracy in neuroblastoma. Whole transcriptome sequencing from FFPE-derived pediatric solid tumor and lymphoma samples has the potential to provide clinical classification of both tissue lineage and core genomic classification. Further expansion, refinement, and validation of this approach is necessary to explore whether this technology could be part of the solution of addressing the diagnostic limitations in LMIC.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Clinical audit of an artificial intelligence (AI) empowered smile simulation system: a prospective clinical trial",
+        "link": "https://www.nature.com/articles/s41598-024-69314-6",
+        "publication_date": "21 Aug 2024",
+        "abstract": "Smile aesthetics is an important factor to consider during orthodontic treatment planning. The aim of the present study is to assess the predictability of Invisalign SmileView for digital AI smile simulation in comparison to actual smile treatment outcomes, using various smile assessment parameters. A total of 24 adult subjects (12 females and 12 males; mean age 22 ± 5.2 years) who chose to be treated using Invisalign were prospectively recruited to have their pretreatment smiles captured using the Invisalign SmileView to simulate their new smiles before treatment was started. Patients were then treated using upper and lower Invisalign aligners with average treatment time of 18 ± 6 months. Full post-treatment records were obtained and full smile frame images of simulated smile and actual final smile of each subject were evaluated by an independent examiner using an objective assessment sheet. Ten smile variants were used to assess the characteristics of the full smile images. Significance level was set at P < 0.05. The ICC for the quantitative parameters showed that there was an overall excellent & good internal consistency (alpha value > 0.7 & > 0.9). The Independent t test was performed amongst the quantitative variables. The P value was not significant for all except maxillary inter canine width (P = 0.05), stating that for the five variables namely; philtrum height, commissure height, smile width, buccal corridor and smile index, actual mean values were similar to the simulation mean values. For the qualitative variables, the Kappa value ranged between 0.66 and  − 0.75 which showed a substantial level of agreement between the examiners. Additionally, the Chi square test for the qualitative variables, revealed that the P value was found to be significant in all except lip line. This implies that only the lip line values are comparable. More optimal lip lines, straighter smile arcs and more ideal tooth display were achieved in actual post treatment results in comparison to the initially predicted smiles. Five quantitative smile assessment parameters i.e., philtrum height, commissure height, smile width, buccal corridor, and smile index, could be used as reliable predictors of smile simulation. Maxillary inter canine width cannot be considered to be a reliable parameter for smile simulation prediction. A single qualitative parameter, namely the lip line, can be used as a reliable predictor for smile simulation. Three qualitative parameters i.e., most posterior tooth display, smile arc, and amount of lower incisor exposure cannot be considered as reliable parameters for smile prediction.",
+        "conclusions": "Considering the limitations associated with this study, the following conclusions can be drawn:\n\n1.\nInvisalign SmileView tool for pretreatment smile simulation can be used with limited predictability, based on the conditions of the present study.\n\n\n2.\nMore optimal lip lines, straighter smile arcs and more ideal tooth display were achieved in actual post treatment results in comparison to the initially predicted smiles.\n\n\n3.\nFive quantitative smile assessment parameters namely philtrum height, commissure height, smile width, buccal corridor, and smile index could be used as reliable predictors of smile simulation. The sixth variable, maxillary inter canine width, however, cannot be considered to be a reliable parameter for smile simulation prediction.\n\n\n4.\nA single qualitative parameter, namely the lip line, can be used as a reliable predictor for smile simulation. The other three qualitative parameters, namely most posterior tooth display, smile arc, and amount of lower incisor exposure cannot be considered to be reliable parameters for smile prediction.",
+        "ml_techniques": [
+            "DNN",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Enhancing boundary detection of radiofrequency ablation lesions through photoacoustic mapping",
+        "link": "https://www.nature.com/articles/s41598-024-68046-x",
+        "publication_date": "21 Aug 2024",
+        "abstract": "Atrial fibrillation (A-fib) is the most common type of heart arrhythmia, typically treated with radiofrequency catheter ablation to isolate the heart from abnormal electrical signals. Monitoring the formation of ablation-induced lesions is crucial for preventing recurrences and complications arising from excessive or insufficient ablation. Existing imaging modalities lack real-time feedback, and their intraoperative usage is in its early stages. A critical need exists for an imaging-based lesion indexing (LSI) method that directly reflects tissue necrosis formation. Previous studies have indicated that spectroscopic photoacoustic (sPA) imaging can differentiate ablated tissues from their non-ablated counterparts based on PA spectrum variation. In this paper, we introduce a method for detecting ablation lesion boundaries using sPA imaging. This approach utilizes ablation LSI, which quantifies the ratio between the signal from ablated tissue and the total tissue signal. We enhance boundary detection accuracy by adapting a regression model-based compensation. Additionally, the method was cross-validated with clinically used intraoperative monitoring parameters. The proposed method was validated with ex vivo porcine cardiac tissues with necrotic lesions created by different ablation durations. The PA-measured lesion size was compared with gross pathology. Statistical analysis demonstrates a strong correlation (R > 0.90) between the PA-detected lesion size and gross pathology. The PA-detected lesion size also exhibits a moderate to strong correlation (R > 0.75) with local impedance changes recorded during procedures. These results suggest that the introduced PA imaging-based LSI has great potential to be incorporated into the clinical workflow, guiding ablation procedures intraoperatively.",
+        "conclusions": "Conclusions not available",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    },
+    {
+        "title": "Identification of copper death-associated molecular clusters and immunological profiles for lumbar disc herniation based on the machine learning",
+        "link": "https://www.nature.com/articles/s41598-024-69700-0",
+        "publication_date": "20 Aug 2024",
+        "abstract": "Lumbar disc herniation (LDH) is a common clinical spinal disorder, yet its etiology remains unclear. We aimed to explore the role of cuproptosis-related genes (CRGs) and identify potential diagnostic biomarkers. Our analysis involved interrogating the GSE124272 and GSE150408 datasets for differential gene expression profiles associated with CRGs and immune characteristics. Molecular clustering was performed on LDH samples, followed by expression and immune infiltration analyses. Using the WGCNA algorithm, specific genes within CRG clusters were identified. After selecting the most predictive genes from the optimal model, four machine learning models were constructed and validated. This study identified nine CRGs associated with copper-regulated cell death. Two copper-containing molecular clusters linked to death were detected in LDH samples. Elevated expression and immune infiltration levels were found in LDH patients, particularly in CRG cluster C2. Utilizing XGB, five genes were identified for constructing a diagnostic model, achieving an area under the curve values of 0.715. In conclusion, this research provides valuable insights into the association between LDH and copper-regulated cell death, alongside proposing a promising predictive model.",
+        "conclusions": "In summary, our study represents the discriminatory potential of CRGs in LDH. Models constructed using machine learning methods and five genes (CKS2, LRG1, RAB43, DYSF, and G6PD) demonstrated strong predictive capabilities. These results offer insights into the pathogenesis and therapeutic research of LDH moving forward.",
+        "ml_techniques": [
+            "Traditional ML",
+            "Gen AI"
+        ],
+        "security_privacy": {
+            "Attack Types": [],
+            "Attacker Identity": [
+                "patient"
+            ],
+            "Attacker Capability": []
+        }
+    }
+]
