@@ -4,7 +4,7 @@ import os
 
 # Directory containing the JSON files
 json_dir = "./articles/"  # Change this to the folder where your JSON files are stored
-output_csv = "nature_articles.csv"
+output_csv = "nature_articles_2020_2022.csv"
 
 ML_TECHNIQUES = {
     "Traditional ML": ["regression", "decision tree", "svm", "k-means"],

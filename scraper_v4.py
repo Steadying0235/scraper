@@ -4,7 +4,8 @@ import json
 import time
 
 # Base URL with page placeholder
-base_url = "https://www.nature.com/search?q=machine+learning&order=date_desc&subject=medical-research&article_type=research&date_range=2022-2025&page={}"
+#base_url = "https://www.nature.com/search?q=machine+learning&order=date_desc&subject=medical-research&article_type=research&date_range=2022-2025&page={}"
+base_url = "https://www.nature.com/search?q=machine+learning&order=relevance&subject=medical-research&date_range=2020-2022&page=1"
 
 # Headers to avoid being blocked
 headers = {
@@ -112,13 +113,13 @@ def scrape_all_pages(start_page, end_page):
         articles = extract_articles(soup)
 
         # Save each page's results into a separate JSON file
-        with open(f"articles/nature_articles_page_{page}.json", "w", encoding="utf-8") as json_file:
+        with open(f"articles/nature_articles_date_range_2020_2022_page_{page}.json", "w", encoding="utf-8") as json_file:
             json.dump(articles, json_file, ensure_ascii=False, indent=4)
 
         # Be polite and avoid overwhelming the server
         time.sleep(2)
 
 # Start scraping
-scrape_all_pages(start_page=1, end_page=36)
+scrape_all_pages(start_page=1, end_page=26)
 
 print("Scraping completed. Check JSON files for each page.")
