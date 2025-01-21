@@ -5,7 +5,7 @@ import time
 
 # Base URL with page placeholder
 #base_url = "https://www.nature.com/search?q=machine+learning&order=date_desc&subject=medical-research&article_type=research&date_range=2022-2025&page={}"
-base_url = "https://www.nature.com/search?q=machine+learning&order=relevance&subject=medical-research&date_range=2020-2022&page=1"
+base_url = "https://www.nature.com/search?q=machine+learning&order=date_desc&subject=medical-research&article_type=research&date_range=2020-2022&page={}"
 
 # Headers to avoid being blocked
 headers = {
